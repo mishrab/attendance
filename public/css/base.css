@@ -1,0 +1,54 @@
+body {
+  font: 200 1em "Helvetica Neue", "Segoe UI", "Droid Sans", "Helvetica";
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased; }
+
+input, select, textarea {
+  font: 200 1em "Helvetica Neue", "Segoe UI", "Droid Sans", "Helvetica";
+  outline: none;
+  border: 1px solid #eee;
+  padding: 0.35em 0.5em;
+  background-color: transparent; }
+
+nav {
+  background-color: #6c6c6c;
+  color: #cacaca;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  nav ul {
+    padding: 0 1em;
+    text-align: center;
+    overflow: auto;
+    list-style-type: none;
+    position: relative; }
+    nav ul li.menu {
+      display: inline-block;
+      line-height: 1.5em;
+      padding: 0 1em; }
+    nav ul li.heading {
+      font-weight: 200;
+      float: left;
+      font-size: 1.2em;
+      line-height: 1.25em;
+      color: white;
+      position: absolute;
+      left: 0;
+      padding: 0 1em; }
+    nav ul a {
+      color: #cacaca;
+      text-decoration: none; }
+    nav ul a.active {
+      color: white;
+      text-shadow: 1px 1px 1px #333; }
+    nav ul a:hover {
+      color: white;
+      text-shadow: 1px 1px 1px #333;
+      -webkit-transition: color 500ms ease;
+      -moz-transition: color 500ms ease;
+      -ms-transition: color 500ms ease;
+      -o-transition: color 500ms ease;
+      transition: color 500ms ease; }
+
+/*# sourceMappingURL=base.css.map */

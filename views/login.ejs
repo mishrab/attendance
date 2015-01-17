@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Attendance @GoLiveLabs</title>
+    <link rel="stylesheet" href="/css/login.css"/>
+    <script src="/js/login.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+</head>
+<body>
+<nav class="header">
+    <ul>
+        <li class="heading">
+            GoLiveLabs Internal
+        </li>
+        <li class="menu">
+            <a href="#">My Attendance</a>
+        </li>
+        <li class="menu">
+            <a href="#">Browser Identifier</a>
+        </li>
+        <li class="menu">
+            <a href="#">Events</a>
+        </li>
+        <li class="menu">
+            <a href="#myBoost" class="active">Portal</a>
+        </li>
+    </ul>
+</nav>
+<div class="header-divider"></div>
+<section class="loginandregister">
+    <!--container for login-->
+    <div>
+        <div class="register">
+            <h1>Register</h1>
+            <form name="register">
+                <input type="text" name="username" placeholder="username"/>
+                <input type="password" name="password" placeholder="password"/>
+                <input type="text" name="email" placeholder="email"/>
+                <input type="text" name="batchname" placeholder="batch name"/>
+                <input type="submit" value="Register"/>
+                <div class="message"></div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <div class="login">
+            <h1>Login</h1>
+            <form name="login">
+                <input type="text" name="username" placeholder="username"/>
+                <input type="password" name="password" placeholder="password"/>
+                <input type="submit" value="Login"/>
+                <div class="message"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="logout-section">
+    <h1>You are logged in as <span class="username"></span>! <a href="/login/logout">Click here</a> to logout.</h1>
+</section>
+
+
+</body>
+</html>

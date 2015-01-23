@@ -34,7 +34,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect(process.env.MONGOLAB_URI, function(err) {
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/test', function(err) {
     if (err) {
         console.log('Could not connect to mongodb on localhost. Ensure that you have mongodb running on localhost and mongodb accepts connections on standard ports!');
     }

@@ -4,7 +4,7 @@ var router = require('express').Router();
 
 
 router.get('/', function(req, res) {
-    res.render('login_test');
+    res.render('login');
 });
 
 router.post('/register', function (req, res) {
